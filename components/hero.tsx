@@ -74,7 +74,7 @@ export default function Hero() {
                   alt="Hero illustration"
                   aria-hidden="true"
                 />
-                <Image src={HeroImage} className="md:max-w-none" width="548" height="545" alt="Credit card" data-aos="fade-up" />
+                <Image src={HeroImage} className="md:max-w-none" width="384" height="384" alt="Credit card" data-aos="fade-up" />
               </div>
             </div>
           </div>
