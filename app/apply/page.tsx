@@ -51,7 +51,7 @@ export default function Apply() {
               <div className="lg:flex lg:space-x-12 xl:space-x-16">
                 {/* Left side */}
                 <div className="grow lg:mt-16 mb-16 lg:mb-0 text-center lg:text-left">
-                  <h1 className="h2 mb-8">Build flexible cards for your business</h1>
+                  <h1 className="h2 mb-8">Convert real models into virtual avatarss</h1>
 
                   <div className="mb-12">
                     <ul className="inline-flex flex-col text-slate-500 space-y-2.5">
@@ -63,7 +63,7 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>Create cards that work exactly as you configured them</span>
+                        <span>Save time with AI-modified model avatars.</span>
                       </li>
                       <li className="flex items-center text-left">
                         <svg className="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>Focus critical resources on your core business</span>
+                        <span>Scale content with personalized lifelike avatars.</span>
                       </li>
                       <li className="flex items-center text-left">
                         <svg className="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -83,38 +83,9 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>Make real-time decisions on charges and spendings.</span>
+                        <span>Boost efficiency with instant avatar creation.</span>
                       </li>
                     </ul>
-                  </div>
-
-                  {/* Press logos */}
-                  <div className="w-full">
-                    <div className="text-xs text-slate-400 font-[350] uppercase tracking-wider text-center lg:text-left mb-5">
-                      Trusted bt the best
-                    </div>
-
-                    <div className="flex flex-nowrap items-center justify-center lg:justify-start -m-4 lg:-m-2 xl:-m-4">
-                      {/* Facebook */}
-                      <div className="p-4 lg:p-2 xl:p-4">
-                        <Image className="inline-flex max-w-full" src={LogoFacebook} alt="Facebook" />
-                      </div>
-
-                      {/* Nike */}
-                      <div className="p-4 lg:p-2 xl:p-4">
-                        <Image className="inline-flex max-w-full" src={LogoNike} alt="Nike" />
-                      </div>
-
-                      {/* Samsung */}
-                      <div className="p-4 lg:p-2 xl:p-4">
-                        <Image className="inline-flex max-w-full" src={LogoSamsung} alt="Samsung" />
-                      </div>
-
-                      {/* Disney */}
-                      <div className="p-4 lg:p-2 xl:p-4">
-                        <Image className="inline-flex max-w-full" src={LogoDisney} alt="Disney" />
-                      </div>
-                    </div>
                   </div>
                 </div>
 
@@ -171,7 +142,7 @@ export default function Apply() {
                               <input id="website" className="form-input text-sm py-2 w-full" type="text" placeholder="example.com" required />
                             </div>
                           </div>
-                          <div className="sm:flex items-start justify-between sm:space-x-4">
+                          {/* <div className="sm:flex items-start justify-between sm:space-x-4">
                             <label
                               className="block text-sm leading-5 mt-2.5 text-slate-800 font-[550] text-left mb-1.5 sm:mb-0"
                               htmlFor="company-size"
@@ -199,7 +170,7 @@ export default function Apply() {
                                 <option>Italy</option>
                               </select>
                             </div>
-                          </div>
+                          </div> */}
                           <div className="sm:flex items-start justify-between sm:space-x-4">
                             <label className="block text-sm leading-5 mt-2.5 text-slate-800 font-[550] text-left mb-1.5 sm:mb-0" htmlFor="comment">
                               Anything else?

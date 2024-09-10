@@ -21,12 +21,12 @@ export default function Home() {
       <Section01 />
       <Section02 />
       <Section03 />
-      <Section04 />
-      <Section05 />
-      <Section06 />
-      <Section07 />
-      <Faqs />
-      <Cta />
+      {/* <Section04 /> */}
+      {/* <Section05 /> */}
+      {/* <Section06 /> */}
+      {/* <Section07 /> */}
+      {/* <Faqs /> */}
+      {/* <Cta /> */}
     </>
   )
 }
