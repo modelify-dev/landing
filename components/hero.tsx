@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative">
       {/* Bg */}
       <div
-        className="absolute inset-0 rounded-bl-[100px] mb-28 md:mb-0 bg-gradient-to-tr from-blue-600 to-blue-500 pointer-events-none -z-10"
+        className="absolute inset-0 md:mb-0 bg-gradient-to-tr from-blue-600 to-blue-500 pointer-events-none -z-10"
         aria-hidden="true"
       />
 
@@ -65,7 +65,7 @@ export default function Hero() {
             </div>
 
             {/* Image */}
-            <div className="max-w-sm mx-auto md:max-w-none md:absolute md:left-[600px] md:top-0 -mb-12 md:-mt-12 md:mb-0">
+            <div className="max-w-sm mx-auto md:max-w-none md:absolute md:left-[600px] md:top-0 -mb-12 md:mt-3 md:mb-0">
               <div className="relative -ml-3 -mr-24 md:mx-0">
                 <Image
                   className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 mt-16 md:mt-0 pointer-events-none -z-10 max-w-none mix-blend-lighten"
@@ -74,7 +74,7 @@ export default function Hero() {
                   alt="Hero illustration"
                   aria-hidden="true"
                 />
-                <Image src={HeroImage} className="md:max-w-none" width="384" height="384" alt="Credit card" data-aos="fade-up" />
+                <Image src={HeroImage} className="md:max-w-none" width="439" alt="Credit card" data-aos="fade-up" />
               </div>
             </div>
           </div>
