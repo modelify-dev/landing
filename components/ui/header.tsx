@@ -32,7 +32,7 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="flex grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            {/* <ul className="flex grow justify-end flex-wrap items-center">
               <li className="ml-3">
                 <Link className="btn-sm inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-sm" href="/apply">
                   Join Waiting List
@@ -43,7 +43,7 @@ export default function Header() {
                   </span>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </nav>
 
         </div>

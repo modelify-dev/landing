@@ -2,7 +2,7 @@ export default function Section01() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-28 md:pb-20">
+        <div className="py-16 md:pb-20">
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-12 md:grid-cols-3 md:-mx-9 md:gap-0 items-start md:max-w-none">
 
@@ -33,9 +33,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Create custom cards</h4>
+              <h4 className="text-l font-bold mb-1">Effortless Avatar Creation for Beginners</h4>
               <p className="text-slate-500">
-                Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                Type in a description, and let AI create realistic avatar. Whether you’re creating profile pictures or experimenting with looks, easily modify their outfits, poses, and backgrounds to fit your vision.
               </p>
             </div>
 
@@ -67,9 +67,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Create custom cards</h4>
+              <h4 className="text-l font-bold mb-1">Customizable Avatars for Influencers</h4>
               <p className="text-slate-500">
-                Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                Tired of frequent photoshoots? Type in your desired outfit, pose, or scene, and watch AI generate your realistic avatar. Quickly produce new, engaging content for social media.
               </p>
             </div>
 
@@ -100,9 +100,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Create custom cards</h4>
+              <h4 className="text-l font-bold mb-1">Scalable Model Avatars for Businesses</h4>
               <p className="text-slate-500">
-                Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                Eliminate the need for endless reshoots by typing in the details of your campaign, and AI will create personalized, realistic avatars of your live models. Perfect for product launches and marketing materials.
               </p>
             </div>
           </div>

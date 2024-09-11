@@ -13,14 +13,14 @@ export default function Section05() {
         />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20">
+          <div className="py-12 md:pt-20">
             {/* Section content */}
             <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left">
               {/* Section header */}
-              <div className="md:max-w-3xl mb-12 md:mb-20" data-aos="fade-up">
-                <h2 className="h2 text-white mb-4">Get started in minutes and connect all your accounts in one place</h2>
+              <div className="md:max-w-3xl mb-12 md:mb-16" data-aos="fade-up">
+                <h2 className="h2 text-white mb-4">Modify Your Brand’s Face Instantly</h2>
                 <p className="text-lg text-blue-200 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Effortlessly create and customize lifelike avatars of your live models. Modify poses, outfits, and settings with ease, all in one place. Say goodbye to reshoots and deliver high-quality content faster than ever before.
                 </p>
               </div>
 
@@ -33,7 +33,7 @@ export default function Section05() {
                     alt="Logos illustration"
                     aria-hidden="true"
                   />
-                  <Image src={Logos} width={720} height={283} alt="Logos" />
+                  <Image src={Logos} width={1024} alt="Logos" className='mb-8'/>
                 </div>
               </div>
 

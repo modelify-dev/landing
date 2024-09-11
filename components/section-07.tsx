@@ -20,7 +20,7 @@ export default function Section07() {
             <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left">
               {/* Section header */}
               <div className="md:max-w-3xl mb-12 md:mb-20" data-aos="fade-up">
-                <h2 className="h2 mb-4">Find the perfect plan for your content creation needs</h2>
+                <h2 className="h2 mb-4">Find a plan for your needs</h2>
                 <p className="text-lg text-slate-500 mb-8">
                 From beginners to enterprises, our AI-powered platform offers scalable, customizable solutions for creating and modifying lifelike avatars, tailored to fit your brand’s vision.
                 </p>
@@ -36,7 +36,7 @@ export default function Section07() {
                 <div className="relative flex flex-col h-full rounded-br-[100px] py-5 px-6">
                   <div className="mb-4">
                     <div className="text-lg font-bold text-center mb-3">Starter</div>
-                    <Image className="w-full rounded-lg" src={Pricing01} width={210} height={124} alt="Starter" />
+                    {/* <Image className="w-full rounded-lg" src={Pricing01} width={210} height={124} alt="Starter" /> */}
                   </div>
                   {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$0/m</div>
@@ -50,13 +50,13 @@ export default function Section07() {
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Suitable for individuals or freelancers just starting out</span>
+                      <span>Suitable for individuals or freelancers just starting</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Basic avatar creation with AI</span>
+                      <span>Basic avatar creation</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -68,13 +68,13 @@ export default function Section07() {
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Basic customization options (poses, lighting, background))</span>
+                      <span>Basic customization (poses, lighting, background)</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Access to pre-set templates for quick avatar generation</span>
+                      <span>Access to pre-set templates</span>
                     </li>
                   </ul>
                 </div>
@@ -86,7 +86,7 @@ export default function Section07() {
                   </div>
                   <div className="mb-4">
                     <div className="text-lg font-bold text-center mb-3">Influencer</div>
-                    <Image className="w-full rounded-lg" src={Pricing02} width={210} height={124} alt="Smart" />
+                    {/* <Image className="w-full rounded-lg" src={Pricing02} width={210} height={124} alt="Smart" /> */}
                   </div>
                   {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$12/m</div>
@@ -124,7 +124,7 @@ export default function Section07() {
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Social media optimization tools for avatar-based posts</span>
+                      <span>Social media optimization tools for your posts</span>
                     </li>
                   </ul>
                 </div>
@@ -133,7 +133,7 @@ export default function Section07() {
                 <div className="relative flex flex-col h-full rounded-br-[100px] py-5 px-6">
                   <div className="mb-4">
                     <div className="text-lg font-bold text-center mb-3">Business</div>
-                    <Image className="w-full rounded-lg" src={Pricing03} width={210} height={124} alt="You" />
+                    {/* <Image className="w-full rounded-lg" src={Pricing03} width={210} height={124} alt="You" /> */}
                   </div>
                   {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$24/m</div>
@@ -147,7 +147,7 @@ export default function Section07() {
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Perfect for small to medium-sized businesses with growing content needs</span>
+                      <span>Perfect for small to medium-sized businesses</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -161,12 +161,12 @@ export default function Section07() {
                       </svg>
                       <span>Full control over customization (product placements, detailed facial expressions)</span>
                     </li>
-                    <li className="flex items-start">
+                    {/* <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>API integration for automated avatar generation within business workflows</span>
-                    </li>
+                    </li> */}
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -180,7 +180,7 @@ export default function Section07() {
                 <div className="relative flex flex-col h-full rounded-br-[100px] py-5 px-6">
                   <div className="mb-4">
                     <div className="text-lg font-bold text-center mb-3">Enterprise</div>
-                    <Image className="w-full rounded-lg" src={Pricing04} width={210} height={124} alt="Black" />
+                    {/* <Image className="w-full rounded-lg" src={Pricing04} width={210} height={124} alt="Black" /> */}
                   </div>
                   {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$49/m</div>
@@ -194,7 +194,7 @@ export default function Section07() {
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Tailored for large enterprises and agencies with complex, high-volume content demands</span>
+                      <span>Tailored for large enterprises and agencies</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -208,12 +208,12 @@ export default function Section07() {
                       </svg>
                       <span>Full white-label options with branding control</span>
                     </li>
-                    <li className="flex items-start">
+                    {/* <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Real-time avatar updates and collaboration across global teams</span>
-                    </li>
+                    </li> */}
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
