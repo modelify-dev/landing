@@ -6,21 +6,23 @@ import Pricing04 from '@/public/images/pricing-04.png'
 
 export default function Section07() {
   return (
-    <section>
+    <section className="mt-12 md:mt-20">
       <div className="relative max-w-7xl mx-auto">
         {/* Bg */}
-        <div className="absolute inset-0 rounded-tr-[100px] mb-24 md:mb-0 border-2 border-slate-100 pointer-events-none -z-10" aria-hidden="true" />
-        <div className="absolute inset-0 rounded-tr-[100px] mb-24 md:mb-0 bg-gradient-to-t from-white pointer-events-none -z-10" aria-hidden="true" />
-
+        <div
+          className="absolute inset-0 rounded-tl-[100px] mb-24 md:mb-0 bg-gradient-to-b from-slate-100 pointer-events-none -z-10"
+          aria-hidden="true"
+        />
+        
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
             {/* Section content */}
             <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left">
               {/* Section header */}
               <div className="md:max-w-3xl mb-12 md:mb-20" data-aos="fade-up">
-                <h2 className="h2 mb-4">Get the only custom super card you'll ever need</h2>
+                <h2 className="h2 mb-4">Find the perfect plan for your content creation needs</h2>
                 <p className="text-lg text-slate-500 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                From beginners to enterprises, our AI-powered platform offers scalable, customizable solutions for creating and modifying lifelike avatars, tailored to fit your brand’s vision.
                 </p>
               </div>
 
@@ -36,43 +38,43 @@ export default function Section07() {
                     <div className="text-lg font-bold text-center mb-3">Starter</div>
                     <Image className="w-full rounded-lg" src={Pricing01} width={210} height={124} alt="Starter" />
                   </div>
-                  <div className="mb-5">
+                  {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$0/m</div>
                     <a className="btn-sm w-full inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 shadow-sm" href="#0">
                       Get Starter
                     </a>
-                  </div>
+                  </div> */}
                   <div className="text-slate-800 font-medium mb-4">Features include</div>
                   <ul className="text-slate-500 text-left space-y-2">
-                    <li className="flex items-start">
+                  <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Contactless payments</span>
+                      <span>Suitable for individuals or freelancers just starting out</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Mobile payments</span>
+                      <span>Basic avatar creation with AI</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Extra card (optional)</span>
+                      <span>Limited modifications per month (up to 10 avatars)</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Free payments worldwide</span>
+                      <span>Basic customization options (poses, lighting, background))</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Free domestic ATM withdrawals</span>
+                      <span>Access to pre-set templates for quick avatar generation</span>
                     </li>
                   </ul>
                 </div>
@@ -83,58 +85,46 @@ export default function Section07() {
                     Popular
                   </div>
                   <div className="mb-4">
-                    <div className="text-lg font-bold text-center mb-3">Smart</div>
+                    <div className="text-lg font-bold text-center mb-3">Influencer</div>
                     <Image className="w-full rounded-lg" src={Pricing02} width={210} height={124} alt="Smart" />
                   </div>
-                  <div className="mb-5">
+                  {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$12/m</div>
                     <a className="btn-sm w-full inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 shadow-sm" href="#0">
                       Get Smart
                     </a>
-                  </div>
+                  </div> */}
                   <div className="text-slate-800 font-medium mb-4">Everything in Starter, plus</div>
                   <ul className="text-slate-500 text-left space-y-2">
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Cashback</span>
+                      <span>Suitable for influencers and creators needing regular, fresh content</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Travel insurance</span>
+                      <span>Increased monthly modifications (up to 50 avatars)</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>3 Extra cards (optional)</span>
+                      <span>Advanced customization options (outfits, accessories, enhanced backgrounds)</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Flight insurance</span>
+                      <span>Batch avatar creation for faster content production</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Two-factor authentication</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Chatbot and in-app support</span>
-                    </li>
-                    <li className="flex items-start">
-                      <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Discounted domestic transfers</span>
+                      <span>Social media optimization tools for avatar-based posts</span>
                     </li>
                   </ul>
                 </div>
@@ -142,46 +132,46 @@ export default function Section07() {
                 {/* Pricing table 3 */}
                 <div className="relative flex flex-col h-full rounded-br-[100px] py-5 px-6">
                   <div className="mb-4">
-                    <div className="text-lg font-bold text-center mb-3">You</div>
+                    <div className="text-lg font-bold text-center mb-3">Business</div>
                     <Image className="w-full rounded-lg" src={Pricing03} width={210} height={124} alt="You" />
                   </div>
-                  <div className="mb-5">
+                  {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$24/m</div>
                     <a className="btn-sm w-full inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 shadow-sm" href="#0">
                       Get You
                     </a>
-                  </div>
-                  <div className="text-slate-800 font-medium mb-4">Everything in Starter, plus</div>
+                  </div> */}
+                  <div className="text-slate-800 font-medium mb-4">Everything in Influencer, plus</div>
                   <ul className="text-slate-500 text-left space-y-2">
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Split and settle bills</span>
+                      <span>Perfect for small to medium-sized businesses with growing content needs</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Money management</span>
+                      <span>Unlimited monthly avatars and modifications</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>5 Extra cards (optional)</span>
+                      <span>Full control over customization (product placements, detailed facial expressions)</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Finance tracking</span>
+                      <span>API integration for automated avatar generation within business workflows</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Free and international domestic ATM withdrawals</span>
+                      <span>Multi-user collaboration for team-based avatar creation</span>
                     </li>
                   </ul>
                 </div>
@@ -189,46 +179,46 @@ export default function Section07() {
                 {/* Pricing table 4 */}
                 <div className="relative flex flex-col h-full rounded-br-[100px] py-5 px-6">
                   <div className="mb-4">
-                    <div className="text-lg font-bold text-center mb-3">Black</div>
+                    <div className="text-lg font-bold text-center mb-3">Enterprise</div>
                     <Image className="w-full rounded-lg" src={Pricing04} width={210} height={124} alt="Black" />
                   </div>
-                  <div className="mb-5">
+                  {/* <div className="mb-5">
                     <div className="text-2xl text-slate-800 font-bold text-center mb-4">$49/m</div>
                     <a className="btn-sm w-full inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 shadow-sm" href="#0">
                       Get Black
                     </a>
-                  </div>
-                  <div className="text-slate-800 font-medium mb-4">Everything in You, plus</div>
+                  </div> */}
+                  <div className="text-slate-800 font-medium mb-4">Everything in Business, plus</div>
                   <ul className="text-slate-500 text-left space-y-2">
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Manage subscriptions</span>
+                      <span>Tailored for large enterprises and agencies with complex, high-volume content demands</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Savings vaults</span>
+                      <span>Dedicated AI training for personalized avatars unique to your brands</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Commission-free stock trade</span>
+                      <span>Full white-label options with branding control</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Crypto and commodities</span>
+                      <span>Real-time avatar updates and collaboration across global teams</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="w-3 h-3 fill-current text-teal-500 mr-3 mt-1.5 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Free foreign exchange</span>
+                      <span>Unlimited API access for full-scale automation</span>
                     </li>
                   </ul>
                 </div>

@@ -30,11 +30,11 @@ export default function Hero() {
                   </svg>
                   Modelify{' '}
                 </span>
-                <br className="hidden md:block" /> Convert real models into virtual avatars
+                <br className="hidden md:block" /> Generate ultra-realistic avatars of live models
               </h1>
               <p className="text-lg text-blue-200 mb-8" data-aos="fade-up" data-aos-delay="200">
-                Modify real model avatars with AI, delivering scalable 
-                <br className="hidden md:block" /> and high-quality content tailored to any business need.
+                Say goodbye to reshoots — Modify your models’ avatars,  
+                <br className="hidden md:block" /> delivering stunning and scalable content tailored to your business.
               </p>
 
               {/* Buttons */}
@@ -58,7 +58,7 @@ export default function Hero() {
                     className="btn-sm w-full inline-flex items-center text-white bg-gradient-to-tr from-blue-400 hover:bg-blue-500 shadow-sm relative before:absolute before:inset-0 before:bg-blue-400 before:bg-opacity-60 before:-z-10 before:rounded-full"
                     href="/support/welcome/installation"
                   >
-                    Sample Avatars
+                    Get in Touch
                   </Link>
                 </div>
               </div>
