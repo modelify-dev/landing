@@ -1,6 +1,6 @@
 import sendgrid from '@sendgrid/mail';
 
-sendgrid.setApiKey('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');
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 export async function POST(req) {
   try {
