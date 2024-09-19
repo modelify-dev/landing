@@ -14,7 +14,7 @@ export default function Apply() {
     comment: '',
   });
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
@@ -39,13 +39,18 @@ export default function Apply() {
       } else {
         throw new Error('Empty response from server');
       }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      alert(`Error submitting form: ${error.message}`);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        console.error('Error submitting form:', error.message);
+        alert(`Error submitting form: ${error.message}`);
+      } else {
+        console.error('Unexpected error', error);
+        alert('An unexpected error occurred');
+      }
     }
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
   };
