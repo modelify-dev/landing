@@ -7,7 +7,7 @@ import LogoSamsung from '@/public/images/logo-samsung.svg'
 import LogoDisney from '@/public/images/logo-disney.svg'
 
 export const metadata = {
-  title: 'Apply - FinTech',
+  title: 'Modelify',
   description: 'Page description',
 }
 
