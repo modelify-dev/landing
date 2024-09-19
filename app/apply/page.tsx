@@ -27,7 +27,6 @@ export default function Apply() {
       });
 
       const resultText = await response.text();
-      console.log('Raw response from server:', resultText);
 
       if (resultText) {
         const result = JSON.parse(resultText);
